@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форм контакт</title>
+    <style>
+    body{
+        background-image: url('https://www.stardewvalley.net/wp-content/uploads/2013/07/mountainsBg.png');
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    .forma{
+        text-align: center;
+        margin: 0 auto;
+        border: 3px solid #a89d00;
+        border-radius: 5px;
+        height: 450px;
+        width: 400px;  
+        background-color: #fff23bc0;
+    }
+    h2{
+            color: rgb(59, 59, 59);
+        }
+    </style>
+</head>
+<body>
+<div class="forma">
+    <h2>Зв'яжіться з нами</h2>
+    <form>
+        <label for="name">Ваше ім'я:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label for="email">Ваш e-mail:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="subject">Тема повідомлення:</label>
+        <input type="text" name="subject" required><br><br>
+
+        <label for="message">Текст повідомлення:</label>
+        <textarea name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Надіслати">
+    </form>
+</div>  
+</body>
+</html>
